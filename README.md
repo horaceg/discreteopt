@@ -1,0 +1,2 @@
+# discreteopt
+Discrete optimization algorithms
