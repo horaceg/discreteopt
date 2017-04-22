@@ -1,0 +1,74 @@
+Shortest Path Algorithms
+
+Task
+=================
+You are given 5 graphs and need to compute shortest paths for each of them.
+You can implement any algorithm you want.
+The task can be fully solved with the methods given in the lectures.
+
+We encourage you to use Python 2.7 with Numpy. We provide an example of reading and writing files in our data format (get_shortest_paths.py).
+If you desperately need to use some other language, please, discuss it with the teachers.
+
+CAUTION! third-party implementation of ANY graph algorithms are not allowed.
+
+Input file format
+=================
+There are 5 test files: task1_test1.txt, task1_test2.txt, task1_test3.txt, task1_test4.txt, task1_test5.txt
+Each of the test files consists of two parts: the first one describes the directed graph; the second one lists the pairs of nodes for which shortest paths need to be computed.
+
+The first line contains the number of vertices n in the graph.
+The n subsequent lines describe edges going out from each node.
+Line i, i=1,...,n, contains the number of edges going out of vertex i-1, followed by the ID of
+each neighbor and the length of the corresponding edge.
+
+Note, that the edge weight can be real numbers or 'inf' corresponding to the infinite weight.
+
+Second block of the input file starts with the number of pairs of interest (k).
+For each pair there are IDs of two nodes
+
+Input file example
+==================
+5
+1 2 .5
+2 4 inf 3 .1
+3 4 1 0 1 1 1
+1 1 .2
+1 2 0.01
+2
+0 3
+4 3
+ 
+Output format
+==================
+Your task is to produce 5 output files corresponding to the provided tests:
+task1_test1_solution.txt, task1_test2_solution.txt, task1_test3_solution.txt, task1_test4_solution.txt, task1_test5_solution.txt
+
+In each file you should provide the lengths of the shortest paths between pairs of interest. For example, in the input file shown above, two shortest paths need to be computed between nodes 0 and 3 and nodes 4 and 3.
+
+Output file example
+==================
+1.6
+1.11
+
+Submission format
+=================
+All the solutions need to be sent to the course e-mail address: ecp.ma2827@gmail.com.
+
+The solutions will be checked by AI, so it is very important to STRICTLY follow the guidelines.
+
+1) The subject of the e-mail should contain the text "[DO-task1]".
+2) The e-mail you want to use for the course should be manually registered by the teachers. AI will simply ignore unknown senders.
+3) The e-mail should contain the following materials in the attachment:
+    A) solutions to the tests (can also be a subset of test cases) in the correct format;
+    B) the source code used to produce the solution;
+    C) a report in PDF format describing what algorithms were used. See the sample submission file for an example.
+4) The solution files AND the code should be attached in a zip file. Note that the solution files should be directly in the root of an archive, otherwise AI won't find them (it is not that smart after all!).
+5) The code should be of the same format as get_shortest_paths.py, i.e., calling  "python get_shortest_paths.py INPUT_FILE" from the command line should produce output to the standard output stream.
+
+Notes
+=====
+1) If AI starts insulting you or misbehaves, please, do complain to the teachers.
+2) The assignment should be completed either individually or in the groups of 2 people maximum.
+In case of collaboration, the teachers should be notified about the teams by the 7th of April, 2017 (by the e-mail ecp.ma2827@gmail.com).
+Each member of a team has to submit all the solution files and a PDF report, clarifying what specifically he/she did.
+The teams can be changed between different assignments.
