@@ -3,6 +3,7 @@ import numpy as np
 import algos_path as shortpath
 import sys
 
+
 def read_numbers(data_file):
     input_data_file = open(data_file, 'r')
     input_data = input_data_file.readlines()
@@ -27,8 +28,8 @@ def read_data(data_file):
     cur_entry += 1
 
     # init graph
-    neighbors = [None] * n
-    weights = [None] * n
+    neighbors = [None]*n
+    weights = [None]*n
 
     # construct the graph
     for i_node in range(n):
@@ -45,6 +46,7 @@ def read_data(data_file):
         weights[i_node] = cur_weights
 
     # get pairs of nodes to compute distances
+
     num_pairs_of_interest = int(numbers[cur_entry])
     cur_entry += 1
 
@@ -56,35 +58,34 @@ def read_data(data_file):
         cur_entry += 1
 
     #print("neighbors :", neighbors, "weights :", weights, "node_pairs", node_pairs, sep='\n')
-    return np.array(neighbors), np.array(weights), node_pairs
+    return neighbors, weights, node_pairs
 
-
-def make_dummy_solution(neighbors, weights, node_pairs):
-    num_pairs = len(node_pairs)
-    asw = np.empty(num_pairs)
-    asw.fill(float('inf'))
-    return asw
-
-def write_solution(result, path) :
-    outfile = open(path + "_solution", 'w')
-    outfile.write("\n".join(result))
-    outfile.close()
 
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         path = sys.argv[1].strip()
     else:
-        k = 1 # input("numéro du test ? ")
+        k = input("numéro du test ? ")
         path = "task1_test"+str(k)+".txt"
 
-    neighbors, weights, node_pairs = read_data(path)
-    ans_bf = shortpath.bellman_ford(node_pairs, neighbors, weights)
-    #ans_fw = shortpath.floyd_warshall(node_pairs, neighbors, weights)
-    print("Bellman-Ford :", ans_bf, "Floyd-Warshall :, ans_fw", sep='\n')
+    graph = read_data(path)
+    weights = graph[1]
 
-    outfile_pref = path.split('.')[0] + "_solution"
-    with open(outfile_pref + "_bf.txt", 'w') as outfile:
-        outfile.write("\n".join(map(str, ans_bf)))
-    #with open(outfile_pref + "_fw.txt", 'w') as outfile:
-    #    outfile.write("\n".join(map(str, ans_fw)))
-    #print('\n'.join(map(str, answer)))
+    if False not in (w == 2 for x in weights for w in x):
+        print("Breadth-first search")
+        ans = shortpath.bfs(graph)
+        ext = "_bfs.txt"
+    elif next((w for x in weights for w in x if w < 0), 1) == 1:
+        print("Dijkstra")
+        ans = shortpath.dijkstra(graph)
+        ext = "_dk.txt"
+    else:
+        print("Bellman-ford")
+        ans = shortpath.bellman_ford(graph)
+        ext = "_bf.txt"
+    
+    print("solution :", ans, sep='\n')
+    outpath = path.split('.')[0] + "_solution" + ext
+    with open(outpath, 'w') as outfile:
+        outfile.write("\n".join(map(str, ans)))
+    # print('\n'.join(map(str, answer)))
