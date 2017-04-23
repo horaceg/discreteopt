@@ -3,7 +3,7 @@ import itertools as it
 
 
 def bellman_ford(node_pairs, neighbors, weights):
-    n = len(neighbors), len(node_pairs)
+    n = len(neighbors)
     result = np.empty(len(node_pairs), dtype='float')
     # st_pairs = list(node_pairs).sort(key=lambda p:p[0])
     permutation = node_pairs[:,0].argsort()
@@ -51,6 +51,7 @@ def bread_fsearch(node_pairs, neighbors, weights):
     pass
 
 def dijkstra(node_pairs, neighbors, weights) :
+    pass
     permutation = node_pairs[:,0].argsort()
     st_pairs = node_pairs[permutation]  # sorts with regard to the sources s
     n = len(neighbors)
@@ -61,7 +62,7 @@ def dijkstra(node_pairs, neighbors, weights) :
         dist = numpy.empty(n, dtype='float')
         dist.fill(np.inf)
         dist[s] = 0
-        while len(p) >= 1 :
+        #while len(p) >= 1 :
 
 
 
