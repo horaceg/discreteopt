@@ -1,0 +1,67 @@
+Knapsack
+
+Task
+=================
+You are given 5 instances of the knapsack problem:
+
+\max  \sum_{i=1}^n v_i x_i
+s.t.  \sum_{i=1}^n s_i x_i <= S
+      x_i \in \{ 0, 1 \}
+
+You can implement any algorithm you want.
+
+We encourage you to use Python 2.7 with Numpy. We provide an example of reading and writing files in our data format (knapsack.py).
+If you desperately need to use some other language, please, discuss it with the teachers.
+
+CAUTION! third-party implementation of ANY distrete optimization algorithms are not allowed.
+If you want to use something, please request permission from the teachers.
+
+Input file format
+=================
+There are 5 test files: task2_test1.txt, task2_test2.txt, task2_test3.txt, task2_test4.txt, task2_test5.txt
+Each of the test files contains the description of one knapsack instance.
+
+The first line contains the number of items n and the capacity constraint S.
+The n subsequent lines describe the items.
+Line i, i=1,...,n, contains the value v_i and the size s_i of item i.
+
+Note, that values v_i and s_i can be real non-negative numbers or 'inf' corresponding to the infinite weight.
+
+Input file example
+==================
+3 10
+45 5
+48 8
+35 3
+ 
+Output format
+==================
+Your task is to produce 5 output files corresponding to the provided tests:
+task2_test1_solution.txt, task2_test2_solution.txt, task2_test3_solution.txt, task2_test4_solution.txt, task2_test5_solution.txt
+
+In each file you should provide the obtained value and the corresponding configuration of items. For example, for the input file shown above, the best value equals 80 and the corresponding configuration consists of items 1 and 3 (1 0 1).
+
+Note, you can submit ANY valid configuration of items with the corresponding value. The solution will be graded based on the value achieved. Nonzero score can be obtained for non-optimal solutions! If the submitted configuration is not enough, you will be told which value you should achive to get a better grade.
+The resubmissions of assignment are allowed.
+
+Output file example
+==================
+80
+1 0 1
+
+Submission format
+=================
+All the solutions need to be sent to the course e-mail address: ecp.ma2827@gmail.com.
+
+The solutions will be checked by AI, so it is very important to STRICTLY follow the guidelines.
+
+1) The subject of the e-mail should contain the text "[DO-task2]".
+2) The e-mail you want to use for the course should be manually registered by the teachers. AI will simply ignore unknown senders.
+3) The e-mail should contain the following materials in the attachment: A) solutions to the tests (can also be a subset of test cases) in the correct format; B) the source code used to produce the solution; C) a report in PDF format describing what algorithms were used. See the sample submission file for an example.
+4) The solution files AND the code should be attached in a ZIP archive. Note that the solution files should be directly in the root of the archive, otherwise AI might not them (it is not that smart after all!).
+5) The code should be in the same format as knapsack.py, i.e., calling  "python knapsack.py INPUT_FILE" from the command line should produce output to the standard output stream.
+
+Notes
+=====
+1) If AI starts insulting you or misbehaves, please, do complain to the teachers.
+2) The assignment should be completed either individually or in the groups of 2 people maximum. In case of collaboration, the teachers should be notified about the teams by the 22nd of April, 2016 (by the e-mail ecp.ma2827@gmail.com). By default, the teacher will assume that the groups are the same as in the previous assignment. Each member of a team has to submit all the solution files and a PDF report, clarifying what specifically he/she did. The teams can be changed between different assignments.

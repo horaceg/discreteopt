@@ -73,7 +73,7 @@ if __name__ == '__main__':
 
     if False not in (w == 2 for x in weights for w in x):
         print("Breadth-first search")
-        ans = shortpath.bfs(graph)
+        ans = shortpath.solution_bfs(graph)
         ext = "_bfs.txt"
     elif next((w for x in weights for w in x if w < 0), 1) == 1:
         print("Dijkstra")
@@ -85,7 +85,7 @@ if __name__ == '__main__':
         ext = "_bf.txt"
     
     print("solution :", ans, sep='\n')
-    outpath = path.split('.')[0] + "_solution" + ext
+    outpath = path.split('.')[0] + "_solution.txt"
     with open(outpath, 'w') as outfile:
         outfile.write("\n".join(map(str, ans)))
     # print('\n'.join(map(str, answer)))
