@@ -152,9 +152,9 @@ def exchange(cycle, tinv, i, j):
     if i >j :
         i,j = j,i
     assert i >=0 and i< j-1 and j<n
-    path = cycle[i+1,j+1]
+    path = cycle[i+1:j+1]
     path.reverse()
-    cycle[i+1,j+1] = path
+    cycle[i+1:j+1] = path
     for k in range(i+1,j+1):
         tinv[cycle[k]] = k
             
@@ -195,7 +195,7 @@ def improve(cycle, length, distances, closest):
             distance_ac = distances[a,c]
             red = (distance_ac + distance_bd)-(distance_ab + distance_cd)
             if red <0 :
-                exchange()
+                exchange(cycle, tinv,p,j)
                 length += red
                 break
     return length, cycle    
@@ -230,10 +230,13 @@ if __name__ == '__main__':
     #solution_value, solution = make_dummy_solution(points)
     
     coord = read_data("task3_test1.txt")
-    M = dist_matrix(coord)
+    
     n = len(coord)
-    solution_value, solution = closest_neighbor_tour(n,48,dist_matrix(coord))
-
+    dist = dist_matrix(coord)
+    clo = find_closest(dist,n)
+    tour = closest_neighbor_tour(n, 0,dist)
+    solution_value, solution = improve(tour[1],tour[0], dist, clo)
+    
     plot_tsp_solution(solution, points)
 
     print (solution_value)
