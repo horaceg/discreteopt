@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcfde984-19a4-437a-aec8-3813d4d4c38a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DO_task2_2017/knapsack.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/algos_path.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/get_shortest_paths.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task1_instructions.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task1_test1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task1_test1_solution_bf.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task1_test1_solution_dk.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task1_test2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task1_test2_solution_bf.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task1_test2_solution_dk.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task1_test3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task1_test3_solution_dk.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task1_test4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task1_test4_solution_bf.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task1_test5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/task1_testH.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DO_task2_2017/solver.py" afterPath="$PROJECT_DIR$/DO_task2_2017/solver.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,115 +27,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/discreteopt$Nosetests_for_algos_ldiscrepancy.coverage" NAME="Nosetests for algos.ldiscrepancy Coverage Results" MODIFIED="1494260920869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DO_task2_2017" />
-    <SUITE FILE_PATH="coverage/discreteopt$get_shortest_paths__1_.coverage" NAME="get_shortest_paths (1) Coverage Results" MODIFIED="1494087709444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DO_Task1_2017" />
-    <SUITE FILE_PATH="coverage/discreteopt$knapsack.coverage" NAME="knapsack Coverage Results" MODIFIED="1494370453400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DO_task2_2017" />
+    <SUITE FILE_PATH="coverage/discreteopt$get_shortest_paths__1_.coverage" NAME="get_shortest_paths (1) Coverage Results" MODIFIED="1493060341307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DO_Task1_2017" />
     <SUITE FILE_PATH="coverage/discreteopt$get_shortest_paths.coverage" NAME="get_shortest_paths Coverage Results" MODIFIED="1492979127996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="knapsack.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DO_task2_2017/knapsack.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-              <folding>
-                <element signature="e#1#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="solver.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DO_task2_2017/solver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="48" column="32" lean-forward="false" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-                <marker date="1494425024571" expanded="true" signature="96:7183" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="156:319" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="344:1072" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="378:487" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="626:815" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="1099:1618" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="1655:1779" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="1803:2448" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="1913:2088" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="2122:2313" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="2483:2983" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="2492:2628" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="2708:2966" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="2753:2830" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="2848:2944" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="3006:3300" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="3102:3251" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="3128:3206" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="3325:3549" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="3578:4433" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="3587:3714" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="3752:4225" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="3830:3928" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="3862:3928" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="3946:4225" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="4037:4225" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="4458:5526" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="4721:5453" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="4796:4882" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="4900:5453" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="5025:5453" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="5056:5176" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="5243:5453" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="5278:5451" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="5556:7183" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="5959:7109" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="6034:6120" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="6138:7109" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="6263:7109" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="6328:6868" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="6374:6603" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="6413:6601" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="6638:6866" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="6894:7109" ph="..." />
-                <marker date="1494425024571" expanded="true" signature="6929:7107" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tsp.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DO_task3_2017/tsp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>numpy</find>
       <find>None</find>
-      <find>value</find>
-      <find>size</find>
-      <find>osize</find>
-      <find>ovalue</find>
-      <find>capacity</find>
-      <find>heuristic</find>
-      <find>val</find>
     </findStrings>
     <replaceStrings>
       <replace>float(&quot;inf&quot;)</replace>
-      <replace>self.value</replace>
-      <replace>self.size</replace>
-      <replace>self.osize</replace>
-      <replace>self.ovalue</replace>
-      <replace>self.capacity</replace>
-      <replace>self.heuristic</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -135,10 +53,6 @@
         <option value="$PROJECT_DIR$/get_shortest_paths.py" />
         <option value="$PROJECT_DIR$/DO_Task1_2017/get_shortest_paths.py" />
         <option value="$PROJECT_DIR$/DO_Task1_2017/algos_path.py" />
-        <option value="$PROJECT_DIR$/DO_task2_2017/task2_instructions.txt" />
-        <option value="$PROJECT_DIR$/DO_task2_2017/algos.py" />
-        <option value="$PROJECT_DIR$/DO_task2_2017/knapsack.py" />
-        <option value="$PROJECT_DIR$/DO_task2_2017/solver.py" />
       </list>
     </option>
   </component>
@@ -169,7 +83,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,24 +105,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DO_task2_2017" />
+              <option name="myItemId" value="DO_Task1_2017" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Horace\Documents\GitHub\discreteopt\DO_task2_2017" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -223,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.knapsack">
+  <component name="RunManager" selected="Python.get_shortest_paths (1)">
     <configuration default="false" name="get_shortest_paths" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,42 +168,6 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="knapsack" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DO_task2_2017" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="discreteopt" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DO_task2_2017/knapsack.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Nosetests for algos.ldiscrepancy" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DO_task2_2017" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="discreteopt" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;algos.ldiscrepancy&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -447,18 +319,14 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.get_shortest_paths" />
       <item index="1" class="java.lang.String" itemvalue="Python.get_shortest_paths (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.knapsack" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for algos.ldiscrepancy" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.knapsack" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for algos.ldiscrepancy" />
-        <item index="2" class="java.lang.String" itemvalue="Python.get_shortest_paths (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.get_shortest_paths" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.get_shortest_paths (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.get_shortest_paths" />
       </list>
     </recent_temporary>
   </component>
@@ -478,26 +346,18 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="Nosetests_for_algos_ldiscrepancy - 2017.05.08 at 16h 32m 21s.xml">
-      <configuration name="Nosetests for algos.ldiscrepancy" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_algos_ldiscrepancy - 2017.05.08 at 18h 28m 41s.xml">
-      <configuration name="Nosetests for algos.ldiscrepancy" configurationId="tests" />
-    </history-entry>
-  </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29380053" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20260416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.121348314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26966292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -509,27 +369,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32022473" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29290205" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -539,175 +378,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="6" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DO_task2_2017/knapsack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DO_task2_2017/solver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1225">
-          <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <marker date="1494425024571" expanded="true" signature="96:7183" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="156:319" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="344:1072" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="378:487" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="626:815" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="1099:1618" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="1655:1779" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="1803:2448" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="1913:2088" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="2122:2313" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="2483:2983" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="2492:2628" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="2708:2966" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="2753:2830" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="2848:2944" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="3006:3300" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="3102:3251" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="3128:3206" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="3325:3549" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="3578:4433" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="3587:3714" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="3752:4225" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="3830:3928" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="3862:3928" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="3946:4225" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="4037:4225" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="4458:5526" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="4721:5453" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="4796:4882" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="4900:5453" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="5025:5453" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="5056:5176" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="5243:5453" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="5278:5451" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="5556:7183" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="5959:7109" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="6034:6120" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="6138:7109" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="6263:7109" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="6328:6868" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="6374:6603" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="6413:6601" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="6638:6866" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="6894:7109" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="6929:7107" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DO_task2_2017/knapsack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DO_task2_2017/knapsack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="66" column="27" lean-forward="true" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DO_task2_2017/algos.py" />
-    <entry file="file://$PROJECT_DIR$/DO_task2_2017/knapsack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2000">
-          <caret line="80" column="57" lean-forward="true" selection-start-line="80" selection-start-column="57" selection-end-line="80" selection-end-column="57" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DO_task2_2017/algos.py" />
-    <entry file="file://$PROJECT_DIR$/DO_task2_2017/knapsack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1750">
-          <caret line="70" column="69" lean-forward="false" selection-start-line="70" selection-start-column="69" selection-end-line="70" selection-end-column="69" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DO_task2_2017/algos.py" />
-    <entry file="file://$PROJECT_DIR$/DO_task2_2017/knapsack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DO_task2_2017/algos.py" />
-    <entry file="file://$PROJECT_DIR$/DO_task2_2017/knapsack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DO_task2_2017/knapsack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DO_task2_2017/algos.py" />
-    <entry file="file://$PROJECT_DIR$/DO_task2_2017/knapsack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DO_task2_2017/algos.py" />
-    <entry file="file://$PROJECT_DIR$/DO_task2_2017/knapsack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task1_test1_solution_bf.txt" />
     <entry file="file://$PROJECT_DIR$/task1_test2_solution_bf.txt" />
     <entry file="file://$PROJECT_DIR$/algos_path.py" />
@@ -716,6 +391,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2025">
           <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -723,95 +399,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="85" column="4" lean-forward="true" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Logement-Saclay/tests/load_form_ans.py" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DO_task2_2017/task2_instructions.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DO_task2_2017/algos.py" />
-    <entry file="file://$PROJECT_DIR$/DO_task2_2017/knapsack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
             <element signature="e#1#19#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DO_task2_2017/solver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="48" column="32" lean-forward="false" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <marker date="1494425024571" expanded="true" signature="96:7183" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="156:319" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="344:1072" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="378:487" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="626:815" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="1099:1618" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="1655:1779" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="1803:2448" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="1913:2088" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="2122:2313" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="2483:2983" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="2492:2628" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="2708:2966" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="2753:2830" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="2848:2944" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="3006:3300" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="3102:3251" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="3128:3206" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="3325:3549" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="3578:4433" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="3587:3714" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="3752:4225" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="3830:3928" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="3862:3928" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="3946:4225" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="4037:4225" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="4458:5526" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="4721:5453" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="4796:4882" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="4900:5453" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="5025:5453" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="5056:5176" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="5243:5453" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="5278:5451" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="5556:7183" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="5959:7109" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="6034:6120" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="6138:7109" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="6263:7109" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="6328:6868" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="6374:6603" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="6413:6601" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="6638:6866" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="6894:7109" ph="..." />
-            <marker date="1494425024571" expanded="true" signature="6929:7107" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DO_task3_2017/tsp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
