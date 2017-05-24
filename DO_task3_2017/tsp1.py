@@ -133,6 +133,7 @@ def closest_neighbor_tour(n, fst, distances):
         cycle.append(next_node)
         unvisited.remove(next_node)
         last = next_node
+    length += distances[last,fst]
     return length, cycle
 
 ###############################################################################
