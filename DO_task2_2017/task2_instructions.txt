@@ -56,7 +56,7 @@ Output file example
 
 Submission format
 =================
-All the solutions need to be sent to the course e-mail address: ecp.ma2827@gmail.com.
+All the solutions need to be sent to the course e-mail address: xxx.ma2827@gmail.com.
 
 The solutions will be checked by AI, so it is very important to STRICTLY follow the guidelines.
 
@@ -77,6 +77,6 @@ Notes
 1) If AI starts insulting you or misbehaves, please, do complain to the teachers.
 2) The assignment should be completed either individually or in the groups of 2 people maximum.
 In case of collaboration, the teachers should be notified about the teams by the 22nd of April, 2016 (by the e-mail
-ecp.ma2827@gmail.com). By default, the teacher will assume that the groups are the same as in the previous assignment.
+xxx.ma2827@gmail.com). By default, the teacher will assume that the groups are the same as in the previous assignment.
 Each member of a team has to submit all the solution files and a PDF report, clarifying what specifically he/she did.
 The teams can be changed between different assignments.
