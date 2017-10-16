@@ -4,7 +4,6 @@ import math
 import matplotlib.pyplot as plt
 import sys
 import solver
-from scipy.spatial import cKDTree
 
 
 def read_numbers(data_file):
