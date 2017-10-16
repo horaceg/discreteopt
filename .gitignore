@@ -87,7 +87,7 @@ ENV/
 
 # Rope project settings
 .ropeproject
-.idea/workspace.xml
+.idea/
 DO_Task1_2017/submission_guyh.zip
 *.aux
 *.gz
