@@ -71,7 +71,7 @@ def dijkstra(graph):
         dist = np.empty(n, dtype='float')
         dist.fill(np.inf)
         u, dist[s] = s, 0
-        while u != t:
+        while u != t :
             d, j = np.min(dist[q]), np.argmin(dist[q])
             u = q[j]
             q = np.delete(q, j)

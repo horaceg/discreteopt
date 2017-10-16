@@ -62,7 +62,7 @@ def plot_tsp_solution(solution, points):
 
     x = np.hstack((points[solution][:,0], points[solution[0]][0]))
     y = np.hstack((points[solution][:,1], points[solution[0]][1]))
-    plt.plot(x, y)
+    plt.plot(x, y, "o-")
     plt.xlabel('x')
     plt.ylabel('y')
     solution_quality = ['Inconsistent', 'Valid']
@@ -133,6 +133,7 @@ def closest_neighbor_tour(n, fst, distances):
         cycle.append(next_node)
         unvisited.remove(next_node)
         last = next_node
+    length += distances[last,fst]
     return length, cycle
 
 ###############################################################################
@@ -232,10 +233,10 @@ if __name__ == '__main__':
     coord = read_data("task3_test1.txt")
     
     n = len(coord)
-    dist = dist_matrix(coord)
-    clo = find_closest(dist,n)
-    tour = closest_neighbor_tour(n, 0,dist)
-    solution_value, solution = improve(tour[1],tour[0], dist, clo)
+    dist_mat = dist_matrix(coord)
+    clo = find_closest(dist_mat,n)
+    tour = closest_neighbor_tour(n, 0,dist_mat)
+    solution_value, solution = improve(tour[1],tour[0], dist_mat, clo)
     
     plot_tsp_solution(solution, points)
 

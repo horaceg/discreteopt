@@ -1,0 +1,71 @@
+Travelling Salesman Problem (TSP)
+
+Task
+=================
+You are given 5 (+1 bonus) instances of the TSP problem.
+The bonus test is not obligatory, but can give extra grade.
+
+You can implement any algorithm you want.
+
+We encourage you to use Python 2.7 with Numpy. We provide an example of reading and writing files in our data format (tsp.py).
+If you desperately need to use some other language, please, discuss it with the instructors.
+
+External software
+=================
+Third-party implementation of ANY specialized TSP solvers are not allowed.
+Other external software (e.g. linear programming solvers) is allowed.
+In case of doubts about some particular software, ask the instructors for permission.
+
+Input file format
+=================
+There are 5 test files: task3_test1.txt, task3_test2.txt, task3_test3.txt, task3_test4.txt, task3_test5.txt
+File task3_test6.txt is the bonus test.
+
+Each of the test files contains the description of one TSP instance.
+
+The first line contains the number of cities n in the instance.
+The n subsequent lines describe each city.
+Line i, i=1,...,n, contains position of the city x_i and y_i.
+
+Values x_i and y_i can be real numbers.
+
+Input file example
+==================
+5
+0 0
+0 0.5
+0 1
+1 1
+1 0
+ 
+Output format
+==================
+Your task is to produce 5 (+1) output files corresponding to the provided tests:
+task3_test1_solution.txt, task3_test2_solution.txt, task3_test3_solution.txt, task3_test4_solution.txt, task3_test5_solution.txt, task3_test6_solution.txt
+
+In each file you should provide the length of the obtained path and the sequence of n city IDs representing the path.
+
+Note, you can submit ANY valid path. The solution will be graded based on the value achieved. Nonzero score can be obtained for non-optimal solutions! If the submitted configuration is not enough, you will be told which value you should achive to get a better grade.
+The resubmissions of the assignment are allowed.
+
+Output file example
+==================
+4.0
+0 1 2 3 4
+
+Submission format
+=================
+All the solutions need to be sent to the course e-mail address: ecp.ma2827@gmail.com.
+
+The solutions will be checked by AI, so it is very important to STRICTLY follow the guidelines.
+
+1) The subject of the e-mail should contain the text "[DO-task3]".
+2) The e-mail you want to use for the course should be manually registered by the instructors. AI will simply ignore unknown senders.
+3) The e-mail should contain the following materials in the attachment: A) solutions to the tests (can also be a subset of test cases) in the correct format; B) the source code used to produce the solution; C) a report in PDF format describing what algorithms were used. See the sample submission file for an example.
+4) The solution files AND the code should be attached in a ZIP archive. Note that the solution files should be directly in the root of the archive, otherwise AI might fail to find them (it is not that smart after all!).
+5) The code should be in the same format as tsp.py, i.e., calling  "python tsp.py INPUT_FILE" from the command line should produce output to the standard output stream.
+
+Notes
+=====
+1) If AI starts insulting you or misbehaves, please, do complain to the instructors.
+2) The assignment should be completed either individually or in the groups of 2 people maximum. In case of collaboration, the instructors should be notified about the teams by the 20th of May, 2017 (by the e-mail ecp.ma2827@gmail.com). By default, the instructor will assume that the groups are the same as in the previous assignment. Each member of a team has to submit all the solution files and a PDF report, clarifying what specifically he/she did. The teams can be changed between different assignments.
