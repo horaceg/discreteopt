@@ -93,8 +93,7 @@ DO_Task1_2017/submission_guyh.zip
 *.gz
 *.zip
 *.docx
-DO_task2_2017/knapsack.ipynb
-DO_task3_2017/tsp1.py
+knapsack/knapsack.ipynb
+tsp/tsp1.py
 Solutions_DO_HWs/
 __pycache__/
-
