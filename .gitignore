@@ -97,3 +97,5 @@ knapsack/knapsack.ipynb
 tsp/tsp1.py
 Solutions_DO_HWs/
 __pycache__/
+*.sublime-*
+tsp/Demo.ipynb
